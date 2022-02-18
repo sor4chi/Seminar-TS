@@ -3,6 +3,7 @@
   "scripts": {
     "dev": "ts-node-dev --respawn src/index.ts",
     "dev_api": "ts-node-dev --respawn src/api/assasion.ts",
+    "dev_sample": "ts-node-dev --respawn src/sample/generics.ts",
     "clean": "rimraf dist",
     "tsc": "tsc",
     "build": "npm-run-all clean tsc",
